@@ -9,7 +9,7 @@ Live Demo
 
 Agent Dashboard
 
-https://yashansia19.github.io/clara-ai-agent1/
+https://github.com/yashansia19/clara-ai-agent1
 
 
 Problem
