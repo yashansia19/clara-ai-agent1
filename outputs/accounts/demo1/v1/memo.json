@@ -1,0 +1,26 @@
+{
+  "account_id": "demo1",
+  "company_name": "Safesprinkler",
+  "business_hours": {
+    "days": "Mon-Fri",
+    "start": "9 am",
+    "end": "5 pm",
+    "timezone": null
+  },
+  "office_address": null,
+  "services_supported": [
+    "sprinkler systems",
+    "fire alarm systems"
+  ],
+  "emergency_definition": [
+    "sprinkler leak"
+  ],
+  "emergency_routing_rules": null,
+  "non_emergency_routing_rules": null,
+  "call_transfer_rules": null,
+  "integration_constraints": [],
+  "after_hours_flow_summary": null,
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [],
+  "notes": []
+}

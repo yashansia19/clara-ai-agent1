@@ -1,0 +1,36 @@
+{
+  "business_hours": {
+    "old": {
+      "days": "Mon-Fri",
+      "start": "9 am",
+      "end": "5 pm",
+      "timezone": null
+    },
+    "new": {
+      "days": "Mon-Fri",
+      "start": "8 am",
+      "end": "6 pm",
+      "timezone": null
+    }
+  },
+  "emergency_routing_rules": {
+    "old": null,
+    "new": "transfer to dispatch phone tree"
+  },
+  "call_transfer_rules": {
+    "old": null,
+    "new": "transfer emergency calls to dispatch"
+  },
+  "integration_constraints": {
+    "old": [],
+    "new": [
+      "never create sprinkler jobs in ServiceTrade"
+    ]
+  },
+  "notes": {
+    "old": [],
+    "new": [
+      "Emergency mentioned but not clearly defined"
+    ]
+  }
+}

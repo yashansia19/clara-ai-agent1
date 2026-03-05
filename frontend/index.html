@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Clara AI Agent Dashboard</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, Arial, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+padding:40px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+header{
+margin-bottom:40px;
+}
+
+header h1{
+font-size:34px;
+color:#38bdf8;
+}
+
+header p{
+color:#94a3b8;
+margin-top:6px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+transition:0.2s;
+}
+
+.card:hover{
+transform:translateY(-4px);
+}
+
+.card h2{
+margin-bottom:15px;
+font-size:18px;
+color:#f1f5f9;
+}
+
+.value{
+font-size:16px;
+line-height:1.6;
+}
+
+.badge{
+display:inline-block;
+background:#2563eb;
+padding:6px 12px;
+border-radius:8px;
+margin:5px;
+font-size:13px;
+}
+
+.changes{
+background:#7c2d12;
+}
+
+.change{
+margin-bottom:10px;
+font-size:14px;
+}
+
+.old{
+color:#f87171;
+}
+
+.new{
+color:#4ade80;
+}
+
+footer{
+text-align:center;
+margin-top:40px;
+color:#94a3b8;
+font-size:13px;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>Clara AI Agent Dashboard</h1>
+<p>AI Generated AgentSpec + Version Tracking</p>
+</header>
+
+<div class="grid">
+
+<div class="card">
+<h2>Account</h2>
+<div class="value">demo1</div>
+</div>
+
+<div class="card">
+<h2>Company</h2>
+<div class="value">Safesprinkler</div>
+</div>
+
+<div class="card">
+<h2>Business Hours</h2>
+<div class="value">
+Version 1 → 9am – 5pm<br>
+Version 2 → 8am – 6pm
+</div>
+</div>
+
+<div class="card">
+<h2>Services Supported</h2>
+<span class="badge">Sprinkler Systems</span>
+<span class="badge">Fire Alarm Systems</span>
+</div>
+
+<div class="card">
+<h2>Emergency Definition</h2>
+<span class="badge">Sprinkler Leak</span>
+</div>
+
+<div class="card changes">
+<h2>Detected Changes (v1 → v2)</h2>
+
+<div class="change">
+Business Hours<br>
+<span class="old">Old: 9am – 5pm</span><br>
+<span class="new">New: 8am – 6pm</span>
+</div>
+
+<div class="change">
+Emergency Routing Rule Added
+</div>
+
+<div class="change">
+Call Transfer Rule Added
+</div>
+
+<div class="change">
+Integration Constraint Added
+</div>
+
+</div>
+
+</div>
+
+<footer>
+Clara AI Assignment • Agent Versioning System
+</footer>
+
+</div>
+
+</body>
+</html>
